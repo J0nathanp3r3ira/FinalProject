@@ -68,11 +68,11 @@ class Card {
             case 3:
                 displayCard.append("Diamonds");
                 break;
-            default: //anything else, do nothing
+            default: //anything else will do nothing
                 break;
         }//end suit switch
         
-        //return the result of an entire cmombined string
+        //return the result of an entire combined string
         return displayCard.toString();
     }//end toString
     
